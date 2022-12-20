@@ -1,0 +1,46 @@
+body {
+
+    background-color: hsl(233, 47%, 7%);
+    font-family: "Lexend Deca",sans-serif;
+  }
+
+  .li{
+    color:  hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none; 
+    
+  }
+
+  .li1{
+    color:hsla(0, 0%, 100%, 0.75) ;
+    list-style: none; 
+  
+  }
+
+  @media (max-width:800px) {
+    .container{
+      display : flex;
+      flex-direction: column-reverse;
+    }
+    .row {
+      width: 350px;
+
+      text-align: center;
+    }
+
+    .img1 {
+      width: 350px;
+      height: 10%;
+
+    }
+
+    .list {
+      flex-direction: column;
+    }
+
+    ul{
+      padding-left: 5px;
+    }
+
+  }
